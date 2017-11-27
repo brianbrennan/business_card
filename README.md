@@ -11,8 +11,14 @@ This is a demo of a business card, built with SCSS, originally made based on a p
 
 ## Developing
 
-To run, simply type
+To begin development on this project, simply install all dependencies
 
 ```
-npm start
+npm install
+```
+
+And run the development script to see the project hosted by lite-server in your browser
+
+```
+npm run dev
 ```
