@@ -1,7 +1,43 @@
-/*-------------------------------------------------------------------------
+/*------------------------------------------------------------------------------*\
 	Styles for Business Card project, for Front End Developer Chapter Meeting
----------------------------------------------------------------------------*/
+\*------------------------------------------------------------------------------*/
 
-body {
-	background: white;
-}
+/*------------------------*\
+	Contents
+		- Variables
+		- Typefaces
+		- Business Card
+\*------------------------*/
+
+/*--------------*\
+	Variables
+\*--------------*/
+
+//Colors
+$color-white: #FFF;
+$color-black: #000;
+$color-grey: #636363;
+$color-red: #F00;
+
+//Sizing
+$tny: 8px;
+$sm: 15px;
+$med: 30px;
+$lg: 60px;
+$xl: 90px;
+$xxl: 120px;
+
+//Font Sizes
+$minFontSize: 9px;
+$smFontSiz: 11px;
+$regFontSize: 13px;
+$lgFontSize: 20px;
+$xlFontSize: 43px;
+
+/*--------------*\
+	Typefaces
+\*--------------*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,900i');
+
+$poppins: 'Poppins', sans-serif;
+
