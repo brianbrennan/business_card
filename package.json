@@ -1,0 +1,23 @@
+{
+  "name": "business_card",
+  "version": "0.0.0",
+  "description": "A business card for myself, built with love",
+  "scripts": {
+    "dev": "concurrently \"node-sass -w --output-style compressed styles.scss > styles.min.css\" \"lite-server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianbrennan/business_card.git"
+  },
+  "author": "Brian Brennan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianbrennan/business_card/issues"
+  },
+  "homepage": "https://github.com/brianbrennan/business_card#readme",
+  "devDependencies": {
+    "concurrently": "3.5.1",
+    "lite-server": "2.3.0",
+    "node-sass": "4.7.2"
+  }
+}
