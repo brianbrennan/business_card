@@ -16,7 +16,7 @@
 //Colors
 $color-white: #C5EFF7;
 $color-black: #22313F;
-$color-grey: #95A5A6;
+$color-grey: #E4F1FE;
 $color-red: #F62459;
 
 //Sizing
@@ -37,7 +37,7 @@ $xlFontSize: 43px;
 /*-------------*\
 	Typefaces
 \*-------------*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
 
 $montserrat: 'Montserrat', sans-serif;
 
@@ -66,10 +66,11 @@ $montserrat: 'Montserrat', sans-serif;
 
 .person-name {
 	font-weight: 900;
-	font-style: italic;
 	font-family: $montserrat;
-	color: $color-red;
+	color: $color-black;
 	font-size: $xlFontSize;
 	line-height: 0.8;
+	text-transform: uppercase;
 	margin: 0;
+	letter-spacing: 2px;
 }
