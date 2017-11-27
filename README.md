@@ -3,7 +3,7 @@
 
 ## Live Demo
 
-This site is currently being hosted on github pages. [Click here to see the live demo](https://brianbrennan.github.io/business_card.
+This site is currently being hosted on github pages. [Click here to see the live demo](https://brianbrennan.github.io/business_card).
 
 ## What is it?
 
