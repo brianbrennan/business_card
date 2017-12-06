@@ -32,9 +32,9 @@ $xl: 90px;
 $xxl: 120px;
 
 //Font Sizes
-$minFontSize: 9px;
-$smFontSize: 11px;
-$regFontSize: 13px;
+$minFontSize: 11px;
+$smFontSize: 13px;
+$regFontSize: 15px;
 $lgFontSize: 20px;
 $xlFontSize: 43px;
 
@@ -53,14 +53,13 @@ $montserrat: 'Montserrat', sans-serif;
 /*-----------*\
 	Globals
 \*-----------*/
+* {
+	box-sizing: border-box;
+}
 
 body {
 	font-family: $lato;
 	color: $color-black;
-}
-
-hr {
-	border: 1px solid $color-light-blue;
 }
 
 /*-----------------*\
@@ -91,7 +90,9 @@ hr {
 \*-----------------*/
 
 .personal-info {
-
+	margin-bottom: $tny;
+	padding-bottom: $tny;
+	border-bottom: 1px dashed $color-light-blue;
 }
 
 .person-name {
@@ -114,6 +115,13 @@ hr {
 
 .person-business {
 	font-weight: 900;
+	font-family: $montserrat;
+	font-size: $smFontSize;
+
+	span {
+		font-family: $lato;
+		font-weight: 900;
+	}
 }
 
 /*--------------*\
@@ -121,11 +129,16 @@ hr {
 \*--------------*/
 
 .tech-stack {
+	margin-bottom: $tny;
+	padding-bottom: $tny;
+	border-bottom: 1px dashed $color-light-blue;
+
 	h3 {
 		margin: $mic 0;
 		text-transform: uppercase;
 		font-family: $montserrat;
 		font-size: $regFontSize;
+		letter-spacing: 0.5px;
 	}
 
 	ul {
@@ -143,3 +156,18 @@ hr {
 /*--------------------*\
 	Hobby & Fun Fact
 \*--------------------*/
+
+.hobby-and-fun-fact {
+	h3 {
+		margin: $mic 0;
+		text-transform: uppercase;
+		font-family: $montserrat;
+		font-size: $regFontSize;
+		letter-spacing: 0.5px;
+	}
+
+	p {
+		font-size: $smFontSize;
+		margin: 0 0 $sm 0;
+	}
+}
