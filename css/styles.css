@@ -1,0 +1,51 @@
+/*-----------------------------------------------------------------------------*	Styles for Business Card project, for Front End Developer Chapter Meeting
+\*-----------------------------------------------------------------------------*/
+/*-----------------------*	Contents
+		- Variables
+		- Typefaces
+		- Business Card
+\*-----------------------*/
+/*-------------*	Variables
+\*-------------*/
+/*-------------*	Typefaces
+\*-------------*/
+@import url("https://fonts.googleapis.com/css?family=Lato:400,900|Montserrat:900");
+/*-----------*	Globals
+\*-----------*/
+body {
+  font-family: "Lato", sans-serif;
+  color: blue; }
+
+/*-----------------*	Business Card
+\*-----------------*/
+.overlay {
+  background-color: rgba(34, 49, 63, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; }
+
+.business-card {
+  background-color: #C5EFF7;
+  width: 378px;
+  height: 600px;
+  position: absolute;
+  left: calc(50% - (378px/2));
+  top: calc(50% - (600px/2));
+  padding: 15px; }
+
+.person-name {
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  color: #22313F;
+  font-size: 43px;
+  line-height: 0.75;
+  text-transform: uppercase;
+  margin: 0; }
+
+.person-role, .person-business {
+  margin: 0 0 0 2px; }
+
+.person-business {
+  font-weight: 900; }
